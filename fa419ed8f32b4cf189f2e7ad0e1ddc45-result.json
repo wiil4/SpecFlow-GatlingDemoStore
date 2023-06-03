@@ -1,0 +1,117 @@
+{
+  "uuid": "0bd1055c42ae4a9c8858490ad0473254",
+  "historyId": "GetProductById",
+  "fullName": "GetProductById",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az749-868"
+    },
+    {
+      "name": "feature",
+      "value": "GetProductById"
+    },
+    {
+      "name": "tag",
+      "value": "functionality"
+    },
+    {
+      "name": "tag",
+      "value": "get-product-by-id"
+    }
+  ],
+  "links": [],
+  "name": "GetProductById",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  A valid API endpoint \"http://demostore.gatling.io/\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685771445210,
+      "stop": 1685771445211
+    },
+    {
+      "name": "And  I have a product Id 4",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685771445211,
+      "stop": 1685771445282
+    },
+    {
+      "name": "When  I send a request",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685771445282,
+      "stop": 1685771445307
+    },
+    {
+      "name": "Then  I expect a valid code response",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685771445307,
+      "stop": 1685771445308
+    },
+    {
+      "name": "And  The product for the given Id",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685771445308,
+      "stop": 1685771445311
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1685771445210,
+  "stop": 1685771445311
+}
