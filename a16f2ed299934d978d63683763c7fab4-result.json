@@ -1,0 +1,102 @@
+{
+  "uuid": "efcb67ef33c546adabfbb802074c19c6",
+  "historyId": "GetAllProducts",
+  "fullName": "GetAllProducts",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az1032-577"
+    },
+    {
+      "name": "feature",
+      "value": "GetProducts"
+    },
+    {
+      "name": "tag",
+      "value": "functionality"
+    },
+    {
+      "name": "tag",
+      "value": "get-all-products"
+    }
+  ],
+  "links": [],
+  "name": "GetAllProducts",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  A valid API endpoint \"http://demostore.gatling.io/\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686085143897,
+      "stop": 1686085143897
+    },
+    {
+      "name": "When  I send a request",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686085143897,
+      "stop": 1686085143918
+    },
+    {
+      "name": "Then  I expect a valid code response",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686085143918,
+      "stop": 1686085143919
+    },
+    {
+      "name": "And  the response should contain a list of products",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686085143919,
+      "stop": 1686085143921
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686085143897,
+  "stop": 1686085143921
+}

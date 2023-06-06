@@ -1,0 +1,138 @@
+{
+  "uuid": "bdc4b0d29a5e45e1bf3e4d8ad19d0dfc",
+  "historyId": "ProductCreation",
+  "fullName": "ProductCreation",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az1032-577"
+    },
+    {
+      "name": "feature",
+      "value": "ProductCreation"
+    },
+    {
+      "name": "tag",
+      "value": "functionality"
+    },
+    {
+      "name": "tag",
+      "value": "product-creation"
+    }
+  ],
+  "links": [],
+  "name": "ProductCreation",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  A valid API endpoint \"http://demostore.gatling.io/\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686085143924,
+      "stop": 1686085143925
+    },
+    {
+      "name": "And  An authorized user \"admin\" with password \"admin\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686085143925,
+      "stop": 1686085143948
+    },
+    {
+      "name": "And  A valid product with the following details",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "table",
+          "source": "0d9e921170b84fd885d96f842350afc9-attachment.csv",
+          "type": "text/csv"
+        }
+      ],
+      "parameters": [],
+      "start": 1686085143952,
+      "stop": 1686085143991
+    },
+    {
+      "name": "When  I send a request",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686085143991,
+      "stop": 1686085144041
+    },
+    {
+      "name": "Then  I expect a valid code response",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686085144041,
+      "stop": 1686085144042
+    },
+    {
+      "name": "And  I expect the information of created product",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686085144042,
+      "stop": 1686085144042
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686085143924,
+  "stop": 1686085144042
+}

@@ -1,0 +1,117 @@
+{
+  "uuid": "caab8df2468f4090b2282c454433e0c7",
+  "historyId": "Authentication",
+  "fullName": "Authentication",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az1032-577"
+    },
+    {
+      "name": "feature",
+      "value": "Authentication"
+    },
+    {
+      "name": "tag",
+      "value": "functionality"
+    },
+    {
+      "name": "tag",
+      "value": "authentication"
+    }
+  ],
+  "links": [],
+  "name": "Authentication",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  A valid API endpoint \"http://demostore.gatling.io/\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686085143225,
+      "stop": 1686085143272
+    },
+    {
+      "name": "And  I have a valid username \"admin\" and password \"admin\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686085143273,
+      "stop": 1686085143274
+    },
+    {
+      "name": "When  I send a request",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686085143274,
+      "stop": 1686085143682
+    },
+    {
+      "name": "Then  I expect a valid code response",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686085143682,
+      "stop": 1686085143692
+    },
+    {
+      "name": "And  I expect a security token",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686085143692,
+      "stop": 1686085143701
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686085143205,
+  "stop": 1686085143703
+}

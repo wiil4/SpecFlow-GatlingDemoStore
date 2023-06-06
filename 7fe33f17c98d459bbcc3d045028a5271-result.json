@@ -1,0 +1,153 @@
+{
+  "uuid": "1113ee83cb234e899eca278c7b9d063a",
+  "historyId": "ProductUpdate",
+  "fullName": "ProductUpdate",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az1032-577"
+    },
+    {
+      "name": "feature",
+      "value": "ProductUpdate"
+    },
+    {
+      "name": "tag",
+      "value": "functionality"
+    },
+    {
+      "name": "tag",
+      "value": "product-update"
+    }
+  ],
+  "links": [],
+  "name": "ProductUpdate",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  A valid API endpoint \"http://demostore.gatling.io/\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686085144047,
+      "stop": 1686085144047
+    },
+    {
+      "name": "And  An authorized user \"admin\" with password \"admin\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686085144047,
+      "stop": 1686085144069
+    },
+    {
+      "name": "And  A valid Id 17 of an existing product",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686085144069,
+      "stop": 1686085144070
+    },
+    {
+      "name": "And  A valid new product data with the following details",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "table",
+          "source": "956a44cc028f4c829c348736d93d4210-attachment.csv",
+          "type": "text/csv"
+        }
+      ],
+      "parameters": [],
+      "start": 1686085144070,
+      "stop": 1686085144071
+    },
+    {
+      "name": "When  I send a request",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686085144071,
+      "stop": 1686085144085
+    },
+    {
+      "name": "Then  I expect a valid code response",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686085144085,
+      "stop": 1686085144085
+    },
+    {
+      "name": "And  I expect the data of updated product",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686085144085,
+      "stop": 1686085144086
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686085144047,
+  "stop": 1686085144086
+}
